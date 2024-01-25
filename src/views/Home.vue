@@ -3,6 +3,9 @@
     <div class="d-flex mb-4 align-center">
       <h3>{{ $t("instance", 2) }}</h3>
       <v-spacer></v-spacer>
+      <p>
+        {{ $t("Total: ") }} {{ filteredInstances.length }}
+      </p>
       <v-btn
         :disabled="loading"
         @click="getInstances"

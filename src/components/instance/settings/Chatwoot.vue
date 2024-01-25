@@ -7,7 +7,7 @@
       v-ripple
     >
       <v-icon start>mdi-chat</v-icon>
-      Chatwoot
+      AI
       <v-spacer></v-spacer>
       <v-btn
         size="small"

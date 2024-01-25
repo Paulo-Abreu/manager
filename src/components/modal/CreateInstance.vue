@@ -33,9 +33,11 @@
           />
         </v-form>
 
+        <!--
         <v-alert type="info" density="comfortable">
           {{ $t("createInstance.configInfo") }}
         </v-alert>
+        -->
 
         <v-alert type="error" v-if="error">
           {{ Array.isArray(error) ? error.join(", ") : error }}
